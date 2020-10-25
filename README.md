@@ -87,3 +87,14 @@ spendEnergy e cost = do
   Character c <- get e
 set e $ Character $ c {energy = cost}
 ```
+
+## Instalation
+
+### Mac
+brew install sdl2 sdl2_image sdl2_ttf pkg-config
+
+## Running
+To find where the compiled binary is:
+
+stack install
+stack exec -- which HSRogue
